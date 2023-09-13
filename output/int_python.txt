@@ -1,0 +1,15 @@
+inputs/int_aleatorio3
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 592.6976549999381 ms
+	Quantidade de numeros: 4000
+
+inputs/int_aleatorio2
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 154.4333519996144 ms
+	Quantidade de numeros: 2000
+
+inputs/int_aleatorio1
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 40.1530389999607 ms
+	Quantidade de numeros: 1000
+

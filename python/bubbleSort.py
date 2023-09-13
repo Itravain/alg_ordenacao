@@ -1,9 +1,8 @@
 import sys
-
-
-vetor = []
+import time
 
 def entrada(vetor):
+
     try:
         while True:
             vetor.append(int(input())) 
@@ -19,10 +18,18 @@ def bubbleSort(vetor):
                 vetor[i-1] = aux
 
 
+#recebe a primeira linha do arquivo
+nome_arquivo = input()
 
-
+vetor = []
 entrada(vetor)
+inicio = time.perf_counter()
 bubbleSort(vetor)
-print(vetor)
+fim = time.perf_counter()
+
+print(f"O tempo de execucao foi {(fim - inicio) * 1000} ms")
+
+with open('output/int_python.txt', 'a') as arquivo:
+    arquivo.write(f"{nome_arquivo}\n\tAlgoritmo de ordenacao: BubbleSort\n\tTempo de execucao: {(fim - inicio) * 1000} ms\n\tQuantidade de numeros: {len(vetor)}\n\n")
 
 
