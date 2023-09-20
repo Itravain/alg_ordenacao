@@ -9,15 +9,15 @@ def entrada(vetor_a):
         print("Arquivo lido com sucesso!")
 
 def countingSort(vetor_a, vetor_b, x, tam):
-    vetor_c = [0] * x
+    vetor_c = [0] * (x+1)
     for j in range(tam - 1):
         vetor_c[vetor_a[j]] += 1
 
     for i in range(1, x):
         vetor_c[i] += vetor_c[i-1]
 
-    for j in range(tam-1, -1, -1):
-        vetor_b[vetor_c[vetor_a[j]]-1] = vetor_a[j]
+    for j in range(tam-1, 0, -1):
+        vetor_b[vetor_c[vetor_a[j]]] = vetor_a[j]
         vetor_c[vetor_a[j]] -= 1
 
 

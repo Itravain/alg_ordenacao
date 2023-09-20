@@ -23,7 +23,6 @@ void aleatorios(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
     }
 }
 
-//95% ordenado
 void q_ordenado(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
     //cabecalho
     fprintf(arquivo, "%s\n", nome_arq);
