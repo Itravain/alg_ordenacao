@@ -39,7 +39,7 @@ fim = time.perf_counter()
 
 print(vetor_a)
 
-with open('output/int_python.txt', 'a') as arquivo:
+with open('python/output/countingSort.txt', 'a') as arquivo:
     arquivo.write(f"{nome_arquivo}\n\tAlgoritmo de ordenacao: countingSort\n\tTempo de execucao: {(fim - inicio) * 1000} ms\n\tQuantidade de numeros: {len(vetor_a)}\n\n")
 
 
