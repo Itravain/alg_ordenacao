@@ -3,32 +3,52 @@
 #include <time.h>
 #include <string.h>
 
-void decrescente(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]) {
+void decrescente(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
     //cabecalho
     fprintf(arquivo, "%s\n", nome_arq);
 
     //imprime os números inteiros
-    for (int i = qtd_num; i > 0; i--) {
+    for (int i = qtd_num; i > 0; i--){
         fprintf(arquivo, "%d\n", i);
     }
 }
 
-void aleatorios(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]) {
+void aleatorios(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
+    //cabecalho
+    fprintf(arquivo, "%s\n", nome_arq);
+
+    //imprime os números inteiros
+    for (int i = 0; i < qtd_num; i++){
+        fprintf(arquivo, "%d\n", rand() % tam_num + 1);
+    }
+}
+
+//95% ordenado
+void q_ordenado(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
     //cabecalho
     fprintf(arquivo, "%s\n", nome_arq);
 
     //imprime os números inteiros
     for (int i = 0; i < qtd_num; i++) {
-        fprintf(arquivo, "%d\n", rand() % tam_num + 1);
+        if (i < qtd_num * 0.95) {
+            fprintf(arquivo, "%d\n", i);
+        } else {
+            fprintf(arquivo, "%d\n", rand() % tam_num + 1);
+        }
     }
 }
 
-void criar_arquivo(FILE **arquivo, int *tipo_arq, char nome_arq[30], int *qtd_num, int *tam_num, int *j) {
+void criar_arquivo(FILE **arquivo, int *tipo_arq, char nome_arq[30], int *qtd_num, int *tam_num, int *j){
     if (*tipo_arq == 1) {
         strcpy(nome_arq, "int_decrescente");
-    } else if (*tipo_arq == 2) {
+    }
+    else if (*tipo_arq == 2) {
         strcpy(nome_arq, "int_aleatorio");
-    } else {
+    }
+    else if (*tipo_arq == 3) {
+        strcpy(nome_arq, "int_95_ordenado");
+    }
+    else {
         printf("Tipo de arquivo invalido\n");
         exit(1);
     }
@@ -62,17 +82,26 @@ int main() {
     scanf("%d", &qtd_arquivos);
 
     // Escolhe o tipo de arquivo
-    printf("Qual o tipo de arquivo?\n1 - Decrescente\n2 - Aleatorio\n");
-    scanf("%d", tipo_arq);
+    printf("Qual o tipo de arquivo?\n1 - Decrescente\n2 - Aleatorio\n3 - 95 ordenado\n");
+    scanf("%d", &tipo_arq);
 
     // Loop para imprimir a quantidade de arquivos desejada
-    for (int j = 1; j <= qtd_arquivos; j++) {
+    for (int j = 1; j <= qtd_arquivos; j++){
         criar_arquivo(&arquivo, &tipo_arq, nome_arq, &qtd_num, &tam_num, &j);
-        if (tipo_arq == 1) {
+        if (tipo_arq == 1){
             decrescente(tam_num, qtd_num, arquivo, nome_arq);
-        } else if (tipo_arq == 2) {
+        }
+        else if (tipo_arq == 2){
             aleatorios(tam_num, qtd_num, arquivo, nome_arq);
         }
+        else if (tipo_arq == 3){
+            q_ordenado(tam_num, qtd_num, arquivo, nome_arq);
+        }
+        else{
+            printf("Tipo de arquivo invalido\n");
+            exit(1);
+        }
+
         fclose(arquivo);
     }
 
