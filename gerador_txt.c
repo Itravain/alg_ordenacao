@@ -53,9 +53,14 @@ void criar_arquivo(FILE **arquivo, int *tipo_arq, char nome_arq[30], int *qtd_nu
         exit(1);
     }
 
+    printf("\nDigite a quantidade de números para o arquivo %d\n", *j);
+    scanf("%d", qtd_num);
+    printf("Digite o tamanho máximo dos números do arquivo %d\n", *j);
+    scanf("%d", tam_num);
+
     // Cria o nome do arquivo
     char nome_completo[50];
-    sprintf(nome_completo, "inputs/%s/%d.txt", nome_arq, *j);
+    sprintf(nome_completo, "inputs/%s/%d_%d_%d.txt", nome_arq, *j, *qtd_num, *tam_num);
 
     // Abre o arquivo
     *arquivo = fopen(nome_completo, "w");
@@ -64,10 +69,6 @@ void criar_arquivo(FILE **arquivo, int *tipo_arq, char nome_arq[30], int *qtd_nu
         exit(1);
     }
 
-    printf("Digite a quantidade de números para o arquivo %d\n", *j);
-    scanf("%d", qtd_num);
-    printf("Digite o tamanho máximo dos números do arquivo %d\n", *j);
-    scanf("%d", tam_num);
 }
 
 int main() {
