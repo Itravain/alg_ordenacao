@@ -8,3 +8,13 @@ inputs/int_aleatorio1
 	Tempo de execucao: 16 ms
 	Quantidade de numeros: 10000
 
+int_95_ordenado
+	Algoritmo de ordenacao: CoutingSort
+	Tempo de execucao: 9 ms
+	Quantidade de numeros: 1000
+
+int_95_ordenado
+	Algoritmo de ordenacao: CoutingSort
+	Tempo de execucao: 7 ms
+	Quantidade de numeros: 1000
+
