@@ -1,0 +1,40 @@
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 4615.74885999994 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 5.289382999990266 ms
+	Quantidade de numeros: 1000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 64.60404299991751 ms
+	Quantidade de numeros: 10000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 806.3879869999937 ms
+	Quantidade de numeros: 100000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 6153.478835999977 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 6406.31307600006 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 6352.190235999956 ms
+	Quantidade de numeros: 500000
+
+int_decrescente
+	Algoritmo de ordenacao: quickSort
+	Tempo de execucao: 179.21970999987025 ms
+	Quantidade de numeros: 1000
+

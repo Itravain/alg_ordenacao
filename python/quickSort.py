@@ -1,6 +1,8 @@
 import sys
 import time
 
+sys.setrecursionlimit(10**6)
+
 def entrada(vetor):
     try:
         while True:
@@ -40,7 +42,7 @@ inicio = time.perf_counter()
 quickSort(vetor, 0, len(vetor) - 1)
 fim = time.perf_counter()
 
-print(vetor)
+#print(vetor)
 
 with open('python/output/quickSort.txt', 'a') as arquivo:
     arquivo.write(f"{nome_arquivo}\n\tAlgoritmo de ordenacao: quickSort\n\tTempo de execucao: {(fim - inicio) * 1000} ms\n\tQuantidade de numeros: {len(vetor)}\n\n")
