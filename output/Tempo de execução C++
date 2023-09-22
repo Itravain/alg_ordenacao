@@ -1,0 +1,92 @@
+Counting 
+Números inteiros/reais aleatórios
+1000: 0.039ms
+
+10000: 0.076ms
+
+100000: 0.851ms
+
+500000: 8.880ms
+
+Números inteiros/reais em ordem não-ascendente:
+1000: 0.009ms
+
+10000: 0.068ms
+
+100000: 1.764ms
+
+500000: 10.867ms
+
+Números inteiros/reais em 95% ordenados:
+1000: 0.054ms
+
+10000: 0.081ms
+
+100000: 1.397ms
+
+500000: 21.189ms
+
+
+________________________________________
+
+
+Quick
+Números inteiros/reais aleatórios
+1000: 0.065ms
+
+10000: 0.751ms
+
+100000: 20.371ms
+
+500000: 102.354ms
+
+Números inteiros/reais em ordem não-ascendente:
+1000:  0.618ms
+
+10000: 150.789ms 
+
+100000: 13246.156ms
+
+500000: ??
+
+Números inteiros/reais em 95% ordenados:
+1000: 0.168ms
+
+10000: 0.956ms
+
+100000:  704.939ms
+
+500000: 19208.924ms
+
+ _________________________________________
+
+Bubble
+Números inteiros/reais aleatórios
+1000: 1.939ms
+
+10000: 369.12ms	
+
+100000: 43297.18ms
+
+500000: ??
+
+Números inteiros/reais em ordem não-ascendente:
+1000: 0.685ms
+
+10000: 148.387ms
+
+100000: 12359.276ms
+
+500000:
+
+Números inteiros/reais em 95% ordenados:
+1000: 0.452ms
+
+10000: 80.791ms
+
+100000: 9367.427ms
+
+500000: ??
+
+
+
