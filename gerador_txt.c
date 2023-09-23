@@ -8,9 +8,21 @@ void decrescente(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
     fprintf(arquivo, "%s\n", nome_arq);
 
     //imprime os números inteiros
-    for (int i = qtd_num; i > 0; i--){
-        fprintf(arquivo, "%d\n", i);
+    if (tam_num > qtd_num){
+        for (int i = 0; i < qtd_num; i++){
+        fprintf(arquivo, "%d\n", tam_num - i);
+        }
     }
+    else{
+        for (int i = 0; i < tam_num; i++){
+            fprintf(arquivo, "%d\n", tam_num - i);
+        }
+        for (int i = 0; i < qtd_num - tam_num; i++){
+            fprintf(arquivo, "0\n");
+        }
+    }
+    
+
 }
 
 void aleatorios(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){

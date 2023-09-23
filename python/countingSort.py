@@ -23,6 +23,7 @@ def countingSort(vetor_a, vetor_b, x, tam):
 
 
 vetor_a = []
+vetor_a_cp = []
 
 #recebe a primeira linha do arquivo
 nome_arquivo = input()
@@ -31,17 +32,17 @@ entrada(vetor_a)
 x = max(vetor_a)
 tam = len(vetor_a)
 
-vetor_b = [0] * tam 
 
-inicio = time.perf_counter()
-countingSort(vetor_a, vetor_b, x, tam)
-fim = time.perf_counter()
+for c in range (3):
+    vetor_a_cp = vetor_a.copy()
+    vetor_b = [0] * tam 
 
-#print(vetor_b)
-#print(vetor_a)
-#print(len(vetor_b))
+    inicio = time.perf_counter()
+    countingSort(vetor_a_cp, vetor_b, x, tam)
+    fim = time.perf_counter()
 
-with open('python/output/countingSort.txt', 'a') as arquivo:
-    #arquivo.write(f"{nome_arquivo}\n\tAlgoritmo de ordenacao: countingSort\n\tTempo de execucao: {(fim - inicio) * 1000} ms\n\tQuantidade de numeros: {len(vetor_a)}\n\n")
+    arquivo = open('python/output/countingSort.txt', 'a')
     arquivo.write(f"{(fim - inicio) * 1000}\t")
 
+arquivo.write("\n")
+arquivo.close()
