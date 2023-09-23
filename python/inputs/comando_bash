@@ -1,0 +1,41 @@
+
+#bubbleSort
+for i in $(seq 1 8); do
+    python3 python/bubbleSort.py < python/inputs/int_95_ordenado/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/bubbleSort.py < python/inputs/int_aleatorio/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/bubbleSort.py < python/inputs/int_decresente/$i.txt
+done
+
+
+#quickSort
+for i in $(seq 1 8); do
+    python3 python/quickSort.py < python/inputs/int_95_ordenado/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/quickSort.py < python/inputs/int_aleatorio/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/quickSort.py < python/inputs/int_decresente/$i.txt
+done
+
+#countingSort
+for i in $(seq 1 8); do
+    python3 python/countingSort.py < python/inputs/int_95_ordenado/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/countingSort.py < python/inputs/int_aleatorio/$i.txt
+done
+
+for i in $(seq 1 8); do
+    python3 python/countingSort.py < python/inputs/int_decresente/$i.txt
+done
+
