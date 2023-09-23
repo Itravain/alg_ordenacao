@@ -37,14 +37,21 @@ def partition(vetor, q, r):
 nome_arquivo = input()
 
 vetor = []
+vetorcp = []
 entrada(vetor)
-inicio = time.perf_counter()
-quickSort(vetor, 0, len(vetor) - 1)
-fim = time.perf_counter()
 
-#print(vetor)
+for c in range(3):
+    vetorcp = vetor.copy()
 
-with open('python/output/quickSort.txt', 'a') as arquivo:
-    arquivo.write(f"{nome_arquivo}\n\tAlgoritmo de ordenacao: quickSort\n\tTempo de execucao: {(fim - inicio) * 1000} ms\n\tQuantidade de numeros: {len(vetor)}\n\n")
+    inicio = time.perf_counter()
+    quickSort(vetorcp, 0, len(vetor) - 1)
+    fim = time.perf_counter()
 
+    #print(vetor)
+
+    arquivo = open('python/output/quickSort.txt', 'a')
+    arquivo.write(f"{(fim - inicio) * 1000}\t")
+
+arquivo.write("\n")
+arquivo.close()
 
