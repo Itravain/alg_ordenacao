@@ -41,10 +41,17 @@ void q_ordenado(int tam_num, int qtd_num, FILE *arquivo, char nome_arq[30]){
 
     //imprime os números inteiros
     for (int i = 0; i < qtd_num; i++) {
-        if (i < qtd_num * 0.95) {
-            fprintf(arquivo, "%d\n", i);
-        } else {
+        if (i == qtd_num * 0.95) {
+            fprintf(arquivo, "%d\n", tam_num);
+        }
+        else if (i > qtd_num * 0.95) {
             fprintf(arquivo, "%d\n", rand() % tam_num + 1);
+        }
+        else if (i <= tam_num){
+            fprintf(arquivo, "%d\n", i);
+        }
+        else{
+            fprintf(arquivo, "%d\n", tam_num);
         }
     }
 }

@@ -1,6 +1,7 @@
 import sys
 import time
 
+sys.settrace()
 sys.setrecursionlimit(10**6)
 
 def entrada(vetor):
