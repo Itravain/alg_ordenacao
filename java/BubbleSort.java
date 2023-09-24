@@ -8,7 +8,7 @@ import java.util.List;
 public class BubbleSort {
     public static void main(String[] args) {
         String nomeArquivo = null; 
-        String caminhoArquivoEntrada = System.getProperty("user.dir") + "/../inputs/int_aleatorio1";
+        String caminhoArquivoEntrada = System.getProperty("user.dir") + "/../inputs/int_decrescente/8_500000_10000000.txt";
         String caminhoArquivoSaida = System.getProperty("user.dir") + "/../output/int_Bubble_java";
         try {
             BufferedReader br = new BufferedReader(new FileReader(caminhoArquivoEntrada));
@@ -26,7 +26,7 @@ public class BubbleSort {
             bubbleSort(vetor);
             long fim = System.currentTimeMillis();
 
-            System.out.println(vetor);
+            //System.out.println(vetor);
 
             try (FileWriter fw = new FileWriter(caminhoArquivoSaida, true)) {
                 fw.write(nomeArquivo + "\n\tAlgoritmo de ordenacao: BubbleSort\n\tTempo de execucao: " + (fim - inicio) + " ms\n\tQuantidade de numeros: " + vetor.size() + "\n\n");

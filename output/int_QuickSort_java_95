@@ -1,121 +1,120 @@
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 6 ms
+	Tempo de execucao: 18 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 7 ms
+	Tempo de execucao: 18 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 7 ms
+	Tempo de execucao: 15 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 10 ms
+	Tempo de execucao: 102 ms
 	Quantidade de numeros: 10000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 8 ms
+	Tempo de execucao: 42 ms
 	Quantidade de numeros: 10000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 10 ms
+	Tempo de execucao: 56 ms
 	Quantidade de numeros: 10000
-	
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 44 ms
+	Tempo de execucao: 3153 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 67 ms
+	Tempo de execucao: 3066 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 43 ms
+	Tempo de execucao: 3168 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 78 ms
-	Quantidade de numeros: 500000
-
-int_95_ordenado
-	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 66 ms
-	Quantidade de numeros: 500000
-
-int_95_ordenado
-	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 75 ms
-	Quantidade de numeros: 500000
-
-int_95_ordenado
-	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 659 ms
+	Tempo de execucao: 32 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 615 ms
+	Tempo de execucao: 51 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 577 ms
+	Tempo de execucao: 35 ms
 	Quantidade de numeros: 1000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 673 ms
+	Tempo de execucao: 468 ms
 	Quantidade de numeros: 10000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 580 ms
+	Tempo de execucao: 477 ms
 	Quantidade de numeros: 10000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 556 ms
+	Tempo de execucao: 487 ms
 	Quantidade de numeros: 10000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 733 ms
+	Tempo de execucao: 390 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 650 ms
+	Tempo de execucao: 497 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 643 ms
+	Tempo de execucao: 451 ms
 	Quantidade de numeros: 100000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 757 ms
+	Tempo de execucao: 3581 ms
 	Quantidade de numeros: 500000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 627 ms
+	Tempo de execucao: 3507 ms
 	Quantidade de numeros: 500000
 
 int_95_ordenado
 	Algoritmo de ordenacao: CoutingSort
-	Tempo de execucao: 1082 ms
+	Tempo de execucao: 3568 ms
 	Quantidade de numeros: 500000
+
+int_95_ordenado
+	Algoritmo de ordenacao: CoutingSort
+	Tempo de execucao: 105 ms
+	Quantidade de numeros: 10000
+
+int_95_ordenado
+	Algoritmo de ordenacao: CoutingSort
+	Tempo de execucao: 45 ms
+	Quantidade de numeros: 10000
+
+int_95_ordenado
+	Algoritmo de ordenacao: CoutingSort
+	Tempo de execucao: 50 ms
+	Quantidade de numeros: 10000
 

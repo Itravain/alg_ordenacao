@@ -1,120 +1,120 @@
-int_decrescente
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 42 ms
+	Quantidade de numeros: 1000
+
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
 	Tempo de execucao: 30 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 29 ms
+	Tempo de execucao: 36 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 32 ms
+	Tempo de execucao: 560 ms
+	Quantidade de numeros: 10000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 559 ms
+	Quantidade de numeros: 10000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 562 ms
+	Quantidade de numeros: 10000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 76744 ms
+	Quantidade de numeros: 100000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 77177 ms
+	Quantidade de numeros: 100000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 78102 ms
+	Quantidade de numeros: 100000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 2853830 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 2772943 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 2811320 ms
+	Quantidade de numeros: 500000
+
+int_aleatorio
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 27 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 593 ms
-	Quantidade de numeros: 10000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 607 ms
-	Quantidade de numeros: 10000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 594 ms
-	Quantidade de numeros: 10000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 38601 ms
-	Quantidade de numeros: 100000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 39360 ms
-	Quantidade de numeros: 100000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 39031 ms
-	Quantidade de numeros: 100000
-
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
 	Tempo de execucao: 34 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 30 ms
+	Tempo de execucao: 28 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 35 ms
-	Quantidade de numeros: 1000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 671 ms
+	Tempo de execucao: 546 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 607 ms
+	Tempo de execucao: 537 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 630 ms
+	Tempo de execucao: 548 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 106393 ms
+	Tempo de execucao: 72206 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 104195 ms
+	Tempo de execucao: 73813 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 105442 ms
+	Tempo de execucao: 72236 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 639931 ms
+	Tempo de execucao: 2006137 ms
 	Quantidade de numeros: 500000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 794503 ms
+	Tempo de execucao: 2071456 ms
 	Quantidade de numeros: 500000
 
-int_decrescente
+int_aleatorio
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 693475 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2730660 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2705529 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2879363 ms
+	Tempo de execucao: 2025430 ms
 	Quantidade de numeros: 500000
 

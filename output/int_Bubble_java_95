@@ -1,120 +1,120 @@
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 30 ms
+	Tempo de execucao: 19 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
 	Tempo de execucao: 29 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 32 ms
+	Tempo de execucao: 22 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 593 ms
+	Tempo de execucao: 266 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 607 ms
+	Tempo de execucao: 315 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 594 ms
+	Tempo de execucao: 310 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 38601 ms
+	Tempo de execucao: 29585 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 39360 ms
+	Tempo de execucao: 30000 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 39031 ms
+	Tempo de execucao: 31051 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 34 ms
+	Tempo de execucao: 788996 ms
+	Quantidade de numeros: 500000
+
+int_95_ordenado
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 776126 ms
+	Quantidade de numeros: 500000
+
+int_95_ordenado
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 771430 ms
+	Quantidade de numeros: 500000
+
+int_95_ordenado
+	Algoritmo de ordenacao: BubbleSort
+	Tempo de execucao: 23 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 30 ms
+	Tempo de execucao: 14 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 35 ms
+	Tempo de execucao: 24 ms
 	Quantidade de numeros: 1000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 671 ms
+	Tempo de execucao: 320 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 607 ms
+	Tempo de execucao: 242 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 630 ms
+	Tempo de execucao: 276 ms
 	Quantidade de numeros: 10000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 106393 ms
+	Tempo de execucao: 21465 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 104195 ms
+	Tempo de execucao: 21496 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 105442 ms
+	Tempo de execucao: 21593 ms
 	Quantidade de numeros: 100000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 639931 ms
+	Tempo de execucao: 589989 ms
 	Quantidade de numeros: 500000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 794503 ms
+	Tempo de execucao: 589611 ms
 	Quantidade de numeros: 500000
 
-int_decrescente
+int_95_ordenado
 	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 693475 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2730660 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2705529 ms
-	Quantidade de numeros: 500000
-
-int_decrescente
-	Algoritmo de ordenacao: BubbleSort
-	Tempo de execucao: 2879363 ms
+	Tempo de execucao: 638429 ms
 	Quantidade de numeros: 500000
 

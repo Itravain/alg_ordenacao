@@ -8,8 +8,8 @@ import java.util.List;
 public class QuickSort {
     public static void main(String[] args) {
         String nomeArquivo = null; 
-        String caminhoArquivoEntrada = System.getProperty("user.dir") + "/../inputs/int_aleatorio1";
-        String caminhoArquivoSaida = System.getProperty("user.dir") + "/../output/int_Couting_java";
+        String caminhoArquivoEntrada = System.getProperty("user.dir") + "/../inputs/int_decrescente/8_500000_10000000.txt";
+        String caminhoArquivoSaida = System.getProperty("user.dir") + "/../output/int_QuickSort_java";
         try {
             BufferedReader br = new BufferedReader(new FileReader(caminhoArquivoEntrada));
             List<Integer> vetor = new ArrayList<>();
@@ -18,7 +18,7 @@ public class QuickSort {
 
             while ((line = br.readLine()) != null) {
                 vetor.add(Integer.parseInt(line));
-            }
+            } 
 
             br.close();
 
@@ -26,10 +26,10 @@ public class QuickSort {
             quickSort(vetor,0,vetor.size()-1);
             long fim = System.currentTimeMillis();
 
-            System.out.println(vetor);
+            //System.out.println(vetor);
 
             try (FileWriter fw = new FileWriter(caminhoArquivoSaida, true)) {
-                fw.write(nomeArquivo + "\n\tAlgoritmo de ordenacao: CoutingSort\n\tTempo de execucao: " + (fim - inicio) + " ms\n\tQuantidade de numeros: " + vetor.size() + "\n\n");
+                fw.write(nomeArquivo + "\n\tAlgoritmo de ordenacao: QuickSort\n\tTempo de execucao: " + (fim - inicio) + " ms\n\tQuantidade de numeros: " + vetor.size() + "\n\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
