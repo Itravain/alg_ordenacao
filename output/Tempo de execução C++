@@ -1,4 +1,4 @@
-Counting 
+Counting 10000
 Números inteiros/reais aleatórios
 1000: 0.039ms
 
@@ -18,19 +18,46 @@ Números inteiros/reais em ordem não-ascendente:
 500000: 10.867ms
 
 Números inteiros/reais em 95% ordenados:
-1000: 0.054ms
+1000:  0.073ms
 
-10000: 0.081ms
+10000:  0.132ms
 
 100000: 1.397ms
 
-500000: 21.189ms
+500000: 6.64900ms
 
+Counting 100000
+Números inteiros/reais aleatórios
+1000: 110.32700ms
+
+10000:129.44000ms
+
+100000: 152.69800ms
+
+500000: 415.62300ms
+
+Números inteiros/reais em ordem não-ascendente:
+1000: 98.89000ms
+
+10000:104.41000ms
+
+100000: 110.65300ms
+
+500000: 183.23300ms
+
+Números inteiros/reais em 95% ordenados:
+1000: 101.577	ms
+
+10000: 105.077ms
+
+100000: 131.868ms
+
+500000: 284.011ms 
 
 ________________________________________
 
 
-Quick
+Quick 10000
 Números inteiros/reais aleatórios
 1000: 0.065ms
 
@@ -58,9 +85,38 @@ Números inteiros/reais em 95% ordenados:
 
 500000: 19208.924ms
 
+Quick 100000
+Números inteiros/reais aleatórios
+1000: 0.064
+
+10000: 0.792
+
+100000: 39.453ms
+
+500000: 94.653ms
+
+Números inteiros/reais em ordem não-ascendente:
+1000: 0.630ms
+
+10000: 639.031ms
+
+100000: 12304.126ms
+
+500000: ???
+
+Números inteiros/reais em 95% ordenados:
+1000: 1.002ms
+
+10000: 188.242ms
+
+100000: 188.242ms
+
+500000: 671.449ms
+
+
  _________________________________________
 
-Bubble
+Bubble 10000
 Números inteiros/reais aleatórios
 1000: 1.939ms
 
@@ -77,7 +133,7 @@ Números inteiros/reais em ordem não-ascendente:
 
 100000: 12359.276ms
 
-500000:
+500000: ??
 
 Números inteiros/reais em 95% ordenados:
 1000: 0.452ms
@@ -87,6 +143,37 @@ Números inteiros/reais em 95% ordenados:
 100000: 9367.427ms
 
 500000: ??
+
+
+Bubble 1000000
+Números inteiros/reais aleatórios
+1000: 2.154ms
+
+10000: 385.25ms	
+
+100000: 45297.18ms
+
+500000: ??
+
+Números inteiros/reais em ordem não-ascendente:
+1000: 0.795ms
+
+10000: 150.436ms
+
+100000: 1358.256ms
+
+500000: ??
+
+Números inteiros/reais em 95% ordenados:
+1000: 0.487ms
+
+10000: 82.687ms
+
+100000: 8478.254ms
+
+500000: ??
+
+
 
 
 
